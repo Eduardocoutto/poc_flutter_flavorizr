@@ -1,0 +1,47 @@
+{
+    "project_info": {
+        "project_number": "657309738662",
+        "project_id": "poc-flutter-flavor",
+        "storage_bucket": "poc-flutter-flavor.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:657309738662:android:88149ec08127da16c53667",
+                "android_client_info": {
+                    "package_name": "com.example.poc_flavor"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "657309738662-t6epvmcumjhh89boc9nq2p38pq363puc.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "com.example.poc_flavor",
+                        "certificate_hash": "8c842259dec06b4d656e0b27e15cd47cec5912de"
+                    }
+                },
+                {
+                    "client_id": "657309738662-7d8jut0v6pu362qakk2v3okt6e2rlqiv.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBEVTTTKMU2aMDules1eDkEX9Jch9d79IY"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "657309738662-7d8jut0v6pu362qakk2v3okt6e2rlqiv.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

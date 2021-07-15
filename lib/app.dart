@@ -1,3 +1,4 @@
+import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/material.dart';
 
 import 'flavors.dart';
@@ -25,6 +26,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final remote = RemoteConfig.instance;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,8 +35,16 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(F.title),
       ),
       body: Center(
-        child: Text(
-          'Hello ${F.title}',
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Hello ${F.title}',
+            ),
+            Text(
+              'Hello ${remote.getString('project_name')}',
+            )
+          ],
         ),
       ),
     );

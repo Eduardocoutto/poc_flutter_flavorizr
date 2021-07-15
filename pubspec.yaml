@@ -21,6 +21,11 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  #firebase
+  firebase_core: ^1.2.0
+  firebase_remote_config: ^0.10.0
+  firebase_analytics: ^8.1.0
+
   flutter:
     sdk: flutter
 
@@ -82,16 +87,22 @@ flavorizr:
         name: "AppName Dev"
 
       android:
-        applicationId: "com.poc.flavor"
-
+        applicationId: "com.example.poc_flavor.dev"
+        firebase:
+          config: ".firebase/dev/google-services.json"
       ios:
-        bundleId: "com.poc.flavor"
-
+        bundleId: "com.poc.flavor.dev"
+        firebase:
+          config: ".firebase/dev/GoogleService-Info.plist"
     prod:
       app:
         name: "AppName Prod"
 
       android:
-        applicationId: "com.poc.flavor"
+        applicationId: "com.example.poc_flavor"
+        firebase:
+          config: ".firebase/prod/google-services.json"
       ios:
         bundleId: "com.poc.flavor"
+        firebase:
+          config: ".firebase/prod/GoogleService-Info.plist"
