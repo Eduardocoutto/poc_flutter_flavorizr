@@ -1,0 +1,46 @@
+{
+    "project_info": {
+        "project_number": "290187223682",
+        "project_id": "poc-flavor-dev",
+        "storage_bucket": "poc-flavor-dev.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:290187223682:android:75f4c7035fefd6718a4a9b",
+                "android_client_info": {
+                    "package_name": "com.example.poc_flavor.dev"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "290187223682-ef5ocdp2tda3jf31kouheubnj476bkri.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDvh9UwzadE8Muy32fe86N6sjcoZDQBh94"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "290187223682-ef5ocdp2tda3jf31kouheubnj476bkri.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "290187223682-p2e69aap3tko8eo9ipoo747dj8oh1197.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.poc.flavor.dev"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
